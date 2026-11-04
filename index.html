@@ -38,7 +38,6 @@
     </script>
 
     <style>
-        /* Custom Neon Glows and Effects matching the GIRO logo */
         .text-glow {
             text-shadow: 0 0 20px rgba(0, 242, 254, 0.4);
         }
@@ -66,8 +65,9 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <!-- Logo GIRO -->
             <a href="#" class="flex items-center gap-3 group">
-                <div class="w-12 h-12 rounded-full giro-logo-circle flex items-center justify-center p-1 relative overflow-hidden group-hover:scale-105 transition-transform">
-                    <span class="font-display font-black text-xl tracking-tighter bg-clip-text text-transparent bg-logo-gradient logo-glow leading-none">GIRO</span>
+                <div class="w-12 h-12 rounded-full giro-logo-circle flex flex-col items-center justify-center p-1 relative overflow-hidden group-hover:scale-105 transition-transform text-center">
+                    <span class="font-display font-black text-xs tracking-tighter bg-clip-text text-transparent bg-logo-gradient logo-glow leading-none">GIRO</span>
+                    <span class="text-[6px] text-white tracking-tighter uppercase block font-medium mt-0.5">Experience the Turn</span>
                 </div>
                 <div>
                     <span class="font-display font-black text-2xl tracking-wider text-white block leading-none">GIRO</span>
@@ -78,14 +78,14 @@
             <!-- Desktop Nav -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
                 <a href="#por-que-giro" class="hover:text-amber-400 transition-colors">¿Por qué GIRO?</a>
-                <a href="#temario" class="hover:text-amber-400 transition-colors">Plan de Estudios</a>
+                <a href="#cursos" class="hover:text-amber-400 transition-colors">Planes y Cursos</a>
                 <a href="#detalles" class="hover:text-amber-400 transition-colors">Horarios y Sede</a>
                 <a href="#inscripcion" class="hover:text-amber-400 transition-colors">Inscripción</a>
             </nav>
 
             <!-- CTA Button Navbar -->
             <div class="hidden sm:flex items-center gap-4">
-                <a href="https://wa.me/50492741775?text=Hola,%20deseo%20informaci%C3%B3n%20sobre%20el%20curso%20de%20barber%C3%ADa%20en%20GIRO" target="_blank" class="bg-giroYellow hover:bg-giroYellowHover text-black font-extrabold text-sm px-5 py-2.5 rounded-full hover:shadow-[0_0_20px_rgba(241,196,15,0.4)] transition-all transform hover:-translate-y-0.5">
+                <a href="https://wa.me/50492741775?text=Hola,%20deseo%20información%20sobre%20los%20cursos%20de%20la%20Academia%20GIRO" target="_blank" class="bg-giroYellow hover:bg-giroYellowHover text-black font-extrabold text-sm px-5 py-2.5 rounded-full hover:shadow-[0_0_20px_rgba(241,196,15,0.4)] transition-all transform hover:-translate-y-0.5">
                     <i class="fab font-bold fa-whatsapp text-base mr-1.5"></i> Inscribirme
                 </a>
             </div>
@@ -99,10 +99,10 @@
         <!-- Mobile Nav Drawer -->
         <div id="mobileMenu" class="hidden md:hidden bg-darkCard border-b border-darkBorder px-6 py-6 space-y-4">
             <a href="#por-que-giro" class="mobile-link block text-slate-200 font-medium hover:text-amber-400">¿Por qué GIRO?</a>
-            <a href="#temario" class="mobile-link block text-slate-200 font-medium hover:text-amber-400">Plan de Estudios</a>
+            <a href="#cursos" class="mobile-link block text-slate-200 font-medium hover:text-amber-400">Planes y Cursos</a>
             <a href="#detalles" class="mobile-link block text-slate-200 font-medium hover:text-amber-400">Horarios y Sede</a>
             <a href="#inscripcion" class="mobile-link block text-slate-200 font-medium hover:text-amber-400">Inscripción</a>
-            <a href="https://wa.me/50492741775?text=Hola,%20deseo%20informaci%C3%B3n%20sobre%20el%20curso%20de%20barber%C3%ADa%20en%20GIRO" target="_blank" class="block w-full text-center bg-giroYellow text-black font-bold text-sm py-3 rounded-full mt-4">
+            <a href="https://wa.me/50492741775?text=Hola,%20deseo%20información%20sobre%20los%20cursos%20de%20la%20Academia%20GIRO" target="_blank" class="block w-full text-center bg-giroYellow text-black font-bold text-sm py-3 rounded-full mt-4">
                 <i class="fab fa-whatsapp mr-2"></i> Contactar por WhatsApp
             </a>
         </div>
@@ -110,12 +110,10 @@
 
     <!-- HERO SECTION -->
     <section class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden bg-gradient-to-b from-darkBg via-darkCard/40 to-darkBg">
-        <!-- Ambient Glow -->
         <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-amber-500/10 blur-[140px] rounded-full pointer-events-none"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             
-            <!-- Badges -->
             <div class="flex flex-wrap items-center justify-center gap-3 mb-6">
                 <span class="inline-flex items-center gap-2 bg-slate-900/80 border border-amber-400/40 text-amber-400 text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full backdrop-blur-md">
                     <i class="fa-solid fa-scissors"></i> Curso 100% Práctico
@@ -125,31 +123,27 @@
                 </span>
             </div>
 
-            <!-- Title -->
             <h1 class="font-display font-black text-4xl sm:text-6xl md:text-7xl tracking-tight text-white max-w-4xl mx-auto uppercase leading-tight">
                 ACADEMIA DE BARBERÍA <span class="bg-clip-text text-transparent bg-logo-gradient text-glow">GIRO</span>
             </h1>
 
-            <!-- Subtitle -->
             <p class="mt-6 text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
                 Aprende el arte profesional del <strong class="text-white font-semibold">Fade, Barba y Estilismo Masculino</strong> en Tegucigalpa. Formación personalizada con <strong class="text-amber-400 font-semibold">máximo 4 alumnos por grupo</strong>.
             </p>
 
-            <!-- Hero Action Buttons -->
             <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a id="heroWaBtn" href="https://wa.me/50492741775?text=Hola,%20deseo%20reservar%20mi%20cupo%20en%20la%20Academia%20GIRO" target="_blank" class="w-full sm:w-auto bg-giroYellow hover:bg-giroYellowHover text-black font-extrabold text-base px-8 py-4 rounded-xl shadow-[0_0_30px_rgba(241,196,15,0.3)] hover:shadow-[0_0_40px_rgba(241,196,15,0.5)] transition-all transform hover:-translate-y-1 flex items-center justify-center gap-3">
+                <a href="https://wa.me/50492741775?text=Hola,%20deseo%20reservar%20mi%20cupo%20en%20la%20Academia%20GIRO" target="_blank" class="w-full sm:w-auto bg-giroYellow hover:bg-giroYellowHover text-black font-extrabold text-base px-8 py-4 rounded-xl shadow-[0_0_30px_rgba(241,196,15,0.3)] hover:shadow-[0_0_40px_rgba(241,196,15,0.5)] transition-all transform hover:-translate-y-1 flex items-center justify-center gap-3">
                     <i class="fab fa-whatsapp text-xl"></i> Reservar Mi Cupo Ahora
                 </a>
-                <a href="#temario" class="w-full sm:w-auto bg-darkCard/80 hover:bg-darkCard border border-slate-700 text-slate-200 font-semibold text-base px-8 py-4 rounded-xl transition-all flex items-center justify-center gap-2">
-                    Ver Plan de Estudios <i class="fa-solid fa-arrow-down text-sm text-amber-400"></i>
+                <a href="#cursos" class="w-full sm:w-auto bg-darkCard/80 hover:bg-darkCard border border-slate-700 text-slate-200 font-semibold text-base px-8 py-4 rounded-xl transition-all flex items-center justify-center gap-2">
+                    Ver Planes y Cursos <i class="fa-solid fa-arrow-down text-sm text-amber-400"></i>
                 </a>
             </div>
 
-            <!-- Highlights Pill Strip -->
             <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-left">
                 <div class="bg-darkCard/60 border border-darkBorder p-4 rounded-xl yellow-accent-border backdrop-blur-sm">
-                    <div class="text-amber-400 font-display font-bold text-2xl mb-1">4 Semanas</div>
-                    <div class="text-xs text-slate-400 font-medium">Programa Intensivo</div>
+                    <div class="text-amber-400 font-display font-bold text-2xl mb-1">Flexibles</div>
+                    <div class="text-xs text-slate-400 font-medium">Planes a tu Medida</div>
                 </div>
                 <div class="bg-darkCard/60 border border-darkBorder p-4 rounded-xl yellow-accent-border backdrop-blur-sm">
                     <div class="text-amber-400 font-display font-bold text-2xl mb-1">Máx. 4</div>
@@ -178,175 +172,110 @@
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Feature 1 -->
                 <div class="bg-darkCard border border-darkBorder p-8 rounded-2xl yellow-accent-border transition-all card-border-glow group">
                     <div class="w-14 h-14 rounded-xl bg-amber-400/10 border border-amber-400/20 text-amber-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-user-group"></i>
                     </div>
                     <h4 class="font-display font-bold text-xl text-white mb-3">Atención 1 a 1 (Grupos Reducidos)</h4>
                     <p class="text-slate-400 text-sm leading-relaxed">
-                        Limitamos los grupos a un <strong class="text-slate-200">máximo de 4 alumnos</strong>. El instructor estará a tu lado corrigiendo tu postura, el movimiento de máquina y tu técnica de tijera en cada minuto.
+                        Limitamos los grupos a un <strong class="text-slate-200">máximo de 4 alumnos</strong>. El instructor estará a tu lado corrigiendo tu postura y técnica en cada minuto.
                     </p>
                 </div>
 
-                <!-- Feature 2 -->
                 <div class="bg-darkCard border border-darkBorder p-8 rounded-2xl yellow-accent-border transition-all card-border-glow group">
                     <div class="w-14 h-14 rounded-xl bg-amber-400/10 border border-amber-400/20 text-amber-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-graduation-cap"></i>
                     </div>
                     <h4 class="font-display font-bold text-xl text-white mb-3">Diploma con Respaldo Legal</h4>
                     <p class="text-slate-400 text-sm leading-relaxed">
-                        Al finalizar recibes tu certificado oficial respaldado legalmente por una entidad registrada ante la SAR y la Alcaldía (AMDC), listo para presentar en cualquier barbería o negocio.
+                        Al finalizar recibes tu certificado oficial respaldado legalmente ante la SAR y la Alcaldía (AMDC), listo para presentar en cualquier barbería.
                     </p>
                 </div>
 
-                <!-- Feature 3 -->
                 <div class="bg-darkCard border border-darkBorder p-8 rounded-2xl yellow-accent-border transition-all card-border-glow group">
                     <div class="w-14 h-14 rounded-xl bg-amber-400/10 border border-amber-400/20 text-amber-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-scissors"></i>
                     </div>
                     <h4 class="font-display font-bold text-xl text-white mb-3">Práctica con Modelos Reales</h4>
                     <p class="text-slate-400 text-sm leading-relaxed">
-                        Sin rodeos teóricos innecesarios. Desde la primera semana entras en contacto con las herramientas y ejecutas desvanecidos (<em>Fades</em>) reales bajo supervisión profesional.
+                        Sin rodeos teóricos innecesarios. Desde el inicio entras en contacto con las herramientas y ejecutas desvanecidos (<em>Fades</em>) reales bajo supervisión profesional.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 3: CURRICULUM -->
-    <section id="temario" class="py-20 bg-darkCard/40 border-t border-darkBorder relative">
+    <!-- SECTION 3: NUESTROS CURSOS Y PLANES (3 MODALIDADES) -->
+    <section id="cursos" class="py-20 bg-darkCard/40 border-t border-darkBorder relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400 mb-3">Estructura Curricular</h2>
-                <h3 class="font-display font-black text-3xl sm:text-4xl text-white">Plan de Estudios (4 Semanas)</h3>
-                <p class="mt-4 text-slate-400 text-base">Un programa diseñado secuencialmente para llevarte desde cero hasta el dominio técnico profesional.</p>
+                <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400 mb-3">Nuestros Programas</h2>
+                <h3 class="font-display font-black text-3xl sm:text-5xl text-white mb-4">Elige el plan ideal para tu formación</h3>
+                <p class="text-slate-300 text-base">Selecciona la modalidad que mejor se adapte a tus metas profesionales y empieza a generar ingresos reales.</p>
             </div>
-
-            <div class="grid lg:grid-cols-2 gap-6 max-w-5xl mx-auto">
-                <!-- Semana 1 -->
-                <div class="bg-darkCard border border-darkBorder rounded-2xl p-6 hover:border-amber-400/50 transition-all">
-                    <div class="flex items-center gap-4 mb-4">
-                        <div class="w-10 h-10 rounded-lg bg-giroYellow text-black font-display font-black text-lg flex items-center justify-center">
-                            01
-                        </div>
-                        <div>
-                            <span class="text-xs text-amber-400 font-bold uppercase tracking-wider">Semana 1</span>
-                            <h4 class="font-display font-bold text-lg text-white">Bases, Higiene y Manejo de Herramientas</h4>
-                        </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
+                
+                <!-- PLAN 1: CURSO DE 4 SEMANAS -->
+                <div class="bg-darkCard rounded-3xl p-8 border border-darkBorder flex flex-col justify-between transition-all duration-300 hover:border-amber-400/50">
+                    <div>
+                        <div class="text-amber-400 font-display font-bold text-xs uppercase tracking-wider mb-2">Nivel Inicial</div>
+                        <h4 class="text-2xl font-display font-black text-white mb-3">Curso Esencial</h4>
+                        <p class="text-slate-400 text-sm mb-6 leading-relaxed">Ideal para dar tus primeros pasos en la barbería y dominar técnicas básicas desde cero.</p>
+                        <div class="text-2xl font-display font-black text-white mb-6">4 Semanas</div>
+                        <ul class="space-y-3 text-slate-300 text-sm mb-8">
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Duración de 4 semanas intensivas</span></li>
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Prácticas supervisadas paso a paso</span></li>
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Técnicas de corte iniciales y bases</span></li>
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Acceso a modelos de práctica</span></li>
+                        </ul>
                     </div>
-                    <ul class="space-y-2.5 text-sm text-slate-300 border-t border-darkBorder pt-4">
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Bioseguridad, desinfección y esterilización de cuchillas.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Ergonomía, postura correcta del barbero y manejo del cliente.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Dominio de Clipper, Trimmer y palanca de ajuste.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Técnica del movimiento de cuchareo (movimiento en C).</span>
-                        </li>
-                    </ul>
+                    <a href="https://wa.me/50492741775?text=Hola,%20me%20interesa%20el%20curso%20de%204%20semanas%20en%20la%20Academia%20GIRO" target="_blank" class="w-full bg-slate-800 hover:bg-slate-700 text-white font-display font-bold py-3.5 px-4 rounded-xl transition text-center block">
+                        Elegir Plan
+                    </a>
                 </div>
 
-                <!-- Semana 2 -->
-                <div class="bg-darkCard border border-darkBorder rounded-2xl p-6 hover:border-amber-400/50 transition-all">
-                    <div class="flex items-center gap-4 mb-4">
-                        <div class="w-10 h-10 rounded-lg bg-giroYellow text-black font-display font-black text-lg flex items-center justify-center">
-                            02
-                        </div>
-                        <div>
-                            <span class="text-xs text-amber-400 font-bold uppercase tracking-wider">Semana 2</span>
-                            <h4 class="font-display font-bold text-lg text-white">El Arte del Desvanecido (Fade)</h4>
-                        </div>
+                <!-- PLAN 2: CURSO DE 4 MESES (DESTACADO) -->
+                <div class="bg-darkCard rounded-3xl p-8 border-2 border-amber-400 flex flex-col justify-between relative shadow-2xl shadow-amber-400/10 transform lg:-translate-y-2">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-amber-400 text-black text-xs font-display font-bold py-1.5 px-4 rounded-full uppercase tracking-wider shadow-md">
+                        Más Popular
                     </div>
-                    <ul class="space-y-2.5 text-sm text-slate-300 border-t border-darkBorder pt-4">
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Diagnóstico del cabello y elección de la línea base (Low, Mid, High Fade).</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Método paso a paso para borrado de líneas sin dejar marcas.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Uso correcto de guías intermedias (#0.5 y #1.5).</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Conexión de laterales con la parte superior.</span>
-                        </li>
-                    </ul>
+                    <div>
+                        <div class="text-amber-400 font-display font-bold text-xs uppercase tracking-wider mb-2">Programa Profesional</div>
+                        <h4 class="text-2xl font-display font-black text-white mb-3">Curso Completo</h4>
+                        <p class="text-slate-400 text-sm mb-6 leading-relaxed">Programa profesional completo para dominar desvanecidos avanzados, barbas y estilismo.</p>
+                        <div class="text-2xl font-display font-black text-white mb-6">4 Meses</div>
+                        <ul class="space-y-3 text-slate-300 text-sm mb-8">
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Duración completa de 4 meses</span></li>
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Dominio total de desvanecidos (Fades)</span></li>
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Clases prácticas constantes con modelos reales</span></li>
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Diploma físico oficial de la Academia GIRO</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/50492741775?text=Hola,%20me%20interesa%20el%20curso%20completo%20de%204%20meses%20en%20la%20Academia%20GIRO" target="_blank" class="w-full bg-giroYellow hover:bg-giroYellowHover text-black font-display font-bold py-3.5 px-4 rounded-xl transition text-center block shadow-lg shadow-amber-400/20">
+                        Inscribirme Ahora
+                    </a>
                 </div>
 
-                <!-- Semana 3 -->
-                <div class="bg-darkCard border border-darkBorder rounded-2xl p-6 hover:border-amber-400/50 transition-all">
-                    <div class="flex items-center gap-4 mb-4">
-                        <div class="w-10 h-10 rounded-lg bg-giroYellow text-black font-display font-black text-lg flex items-center justify-center">
-                            03
-                        </div>
-                        <div>
-                            <span class="text-xs text-amber-400 font-bold uppercase tracking-wider">Semana 3</span>
-                            <h4 class="font-display font-bold text-lg text-white">Corte con Tijera, Barba y Navaja Libre</h4>
-                        </div>
+                <!-- PLAN 3: CURSO DE 4 MESES + HERRAMIENTAS -->
+                <div class="bg-darkCard rounded-3xl p-8 border border-darkBorder flex flex-col justify-between transition-all duration-300 hover:border-amber-400/50">
+                    <div>
+                        <div class="text-amber-400 font-display font-bold text-xs uppercase tracking-wider mb-2">Paquete Completo</div>
+                        <h4 class="text-2xl font-display font-black text-white mb-3">Todo Pro + Herramientas</h4>
+                        <p class="text-slate-400 text-sm mb-6 leading-relaxed">El curso completo de 4 meses incluyendo tu propio kit completo de herramientas profesionales.</p>
+                        <div class="text-2xl font-display font-black text-white mb-6">4 Meses + Kit</div>
+                        <ul class="space-y-3 text-slate-300 text-sm mb-8">
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Curso completo de 4 meses</span></li>
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Máquina y tijeras profesionales incluidas</span></li>
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Capa, accesorios y maletín de trabajo</span></li>
+                            <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-amber-400"></i> <span>Diploma físico oficial incluido</span></li>
+                        </ul>
                     </div>
-                    <ul class="space-y-2.5 text-sm text-slate-300 border-t border-darkBorder pt-4">
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Técnicas de corte sobre dedos, grfilado y texturizado.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Manejo seguro de navaja libre en ángulo de 30 grados.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Perfilado, alineación y diseño estructurado de barba.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Tratamiento de toalla caliente e hidratación facial.</span>
-                        </li>
-                    </ul>
+                    <a href="https://wa.me/50492741775?text=Hola,%20me%20interesa%20el%20paquete%20Todo%20Pro%20de%204%20meses%20con%20herramientas" target="_blank" class="w-full bg-slate-800 hover:bg-slate-700 text-white font-display font-bold py-3.5 px-4 rounded-xl transition text-center block">
+                        Elegir Paquete
+                    </a>
                 </div>
 
-                <!-- Semana 4 -->
-                <div class="bg-darkCard border border-darkBorder rounded-2xl p-6 hover:border-amber-400/50 transition-all">
-                    <div class="flex items-center gap-4 mb-4">
-                        <div class="w-10 h-10 rounded-lg bg-giroYellow text-black font-display font-black text-lg flex items-center justify-center">
-                            04
-                        </div>
-                        <div>
-                            <span class="text-xs text-amber-400 font-bold uppercase tracking-wider">Semana 4</span>
-                            <h4 class="font-display font-bold text-lg text-white">Práctica Final, Portafolio y Graduación</h4>
-                        </div>
-                    </div>
-                    <ul class="space-y-2.5 text-sm text-slate-300 border-t border-darkBorder pt-4">
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Simulación de corte completo en modelo real bajo evaluación.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Fotografía profesional de trabajos para Instagram/TikTok.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Consejos para fijar precios y atención al cliente.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-check text-amber-400 text-xs mt-1"></i>
-                            <span>Entrega oficial de Diplomas validados por Academia GIRO.</span>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </section>
@@ -381,13 +310,14 @@
                     </div>
                 </div>
 
-                <div class="bg-darkCard border border-darkBorder p-8 rounded-3xl yellow-accent-border text-center">
-                    <div class="w-16 h-16 rounded-full giro-logo-circle flex items-center justify-center p-1 mx-auto mb-4">
-                        <span class="font-display font-black text-2xl bg-clip-text text-transparent bg-logo-gradient logo-glow leading-none">GIRO</span>
+                <div class="bg-darkCard border border-darkBorder p-8 rounded-3xl yellow-accent-border text-center shadow-2xl">
+                    <div class="w-16 h-16 rounded-full giro-logo-circle flex flex-col items-center justify-center p-1 mx-auto mb-4 text-center">
+                        <span class="font-display font-black text-sm tracking-tighter bg-clip-text text-transparent bg-logo-gradient logo-glow leading-none">GIRO</span>
+                        <span class="text-[5px] text-white tracking-tighter uppercase block font-medium mt-0.5">Experience the Turn</span>
                     </div>
                     <h4 class="font-display font-bold text-2xl text-white mb-2">Cupos Limitados por Mes</h4>
                     <p class="text-sm text-slate-400 mb-6">Asegura tu lugar con anticipación en la próxima promoción de barberos profesionales.</p>
-                    <a href="https://wa.me/50492741775?text=Hola,%20quisiera%20consultar%20disponibilidad%20de%20horarios%20para%20el%20curso%20de%20barber%C3%ADa" target="_blank" class="inline-flex items-center gap-2 bg-giroYellow hover:bg-giroYellowHover text-black font-extrabold px-6 py-3.5 rounded-xl transition-all shadow-[0_0_20px_rgba(241,196,15,0.3)]">
+                    <a href="https://wa.me/50492741775?text=Hola,%20quisiera%20consultar%20disponibilidad%20para%20los%20cursos%20de%20barbería" target="_blank" class="inline-flex items-center gap-2 bg-giroYellow hover:bg-giroYellowHover text-black font-extrabold px-6 py-3.5 rounded-xl transition-all shadow-[0_0_20px_rgba(241,196,15,0.3)]">
                         <i class="fab fa-whatsapp text-lg"></i> Consultar Disponibilidad
                     </a>
                 </div>
@@ -401,10 +331,10 @@
             <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400 mb-3">Empieza Tu Carrera</h2>
             <h3 class="font-display font-black text-3xl sm:text-5xl text-white mb-6">¿Listo para dar el GIRO a tu vida profesional?</h3>
             <p class="text-slate-300 mb-8 text-lg">
-                Reserva tu cupo hoy mismo directamente por WhatsApp y recibe el temario detallado junto con los requisitos.
+                Reserva tu cupo hoy mismo directamente por WhatsApp y recibe asesoría personalizada sobre nuestros planes formativos.
             </p>
             
-            <a href="https://wa.me/50492741775?text=Hola,%20deseo%20inscribirme%20a%20la%20Academia%20de%20Barber%C3%ADa%20GIRO" target="_blank" class="inline-flex items-center justify-center gap-3 bg-giroYellow hover:bg-giroYellowHover text-black font-black text-lg px-10 py-5 rounded-2xl shadow-[0_0_30px_rgba(241,196,15,0.4)] transition-all transform hover:-translate-y-1">
+            <a href="https://wa.me/50492741775?text=Hola,%20deseo%20inscribirme%20a%20la%20Academia%20de%20Barbería%20GIRO" target="_blank" class="inline-flex items-center justify-center gap-3 bg-giroYellow hover:bg-giroYellowHover text-black font-black text-lg px-10 py-5 rounded-2xl shadow-[0_0_30px_rgba(241,196,15,0.4)] transition-all transform hover:-translate-y-1">
                 <i class="fab fa-whatsapp text-2xl"></i> Hablar con un Asesor por WhatsApp
             </a>
         </div>
@@ -414,8 +344,8 @@
     <footer class="py-12 bg-darkBg border-t border-darkBorder text-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center gap-4">
             <div class="flex items-center gap-2">
-                <div class="w-8 h-8 rounded-full giro-logo-circle flex items-center justify-center p-0.5">
-                    <span class="font-display font-black text-xs bg-clip-text text-transparent bg-logo-gradient logo-glow leading-none">GIRO</span>
+                <div class="w-8 h-8 rounded-full giro-logo-circle flex flex-col items-center justify-center p-0.5 text-center">
+                    <span class="font-display font-black text-[9px] bg-clip-text text-transparent bg-logo-gradient logo-glow leading-none">GIRO</span>
                 </div>
                 <span class="font-display font-black text-lg text-white">ACADEMIA DE BARBERÍA</span>
             </div>
@@ -450,4 +380,4 @@
         });
     </script>
 </body>
-</html>                
+</html>
